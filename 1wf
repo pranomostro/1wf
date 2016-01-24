@@ -1,0 +1,16 @@
+#!/usr/bin/mira -exp
+output
+
+output = map Stdout (map (++"\n") matches)
+
+matches = filter match text
+
+match s = (s--chars)=[] & #s = haylen
+
+text = lines l
+       where
+       (l, trash1, trash2) = system("cat "++dict)
+
+haylen = numval($*!1)
+chars = $*!2
+dict = $*!3
