@@ -43,5 +43,5 @@ Thanks a lot to that guy who wrote miranda. It
 is a shame you have not released the source code
 yet, but hey, there is always a chance left.
 
-I am a.regenfuss@gmx.de, and you won't complain when
+I am pranomestro@gmail.com, and you won't complain when
 this breaks you computer, okay?
