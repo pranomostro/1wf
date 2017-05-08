@@ -1,4 +1,4 @@
-#configuration makefile for 1wf, based on a template
+#configuration makefile for 1wf
 
 PREFIX=/usr/local
 

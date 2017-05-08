@@ -1,5 +1,3 @@
-#installation makefile for 1wf
-
 include config.mk
 
 all: install

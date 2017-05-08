@@ -6,18 +6,18 @@
 1wf LEN CHARS DICT
 
 .SH DESCRIPTION
-1wf prints possible solutions for 4 pics 1 word riddles.
-It takes 3 arguments: LEN is the length of the searched word,
-CHARS are the chars provided for the generation of
-the word and DICT is the name of the dictiory file (a dictionary
-file named 'dict' is provided with 1wf). 1wf prints one possible
-solution per line.
+1wf prints possible solutions for 4 pics 1 word riddles.  It takes 3
+arguments: LEN is the length of the searched word, CHARS are the chars
+provided for the generation of the word and DICT is the name of the
+dictiory file (a dictionary file named 'dict' is provided with 1wf). 1wf
+prints one possible solution per line.
 
 .SH BUGS
 The solutions are far from perfect, but the right one should be within
 the first 10 or 20 solutions, depending on LEN.
 .PP
-There is no explicit handling of missing parameters.
+Since miranda has no unicode handling mechanisms, any non-ASCII input
+is broken.
 
 .SH AUTHOR
 More ideas that will never be implemented? Send them to
