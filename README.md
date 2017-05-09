@@ -1,7 +1,7 @@
 Solve 4 pics 1 word riddles
 ===========================
 
-1wf is a script that solves '4 pics one word' (4p1w) riddles.  It searches
+1wf is a script that solves '4 pics one word' (4p1w) riddles. It searches
 words that only contain letters from the letter field within 4p1w and have
 the length of the searched word. Of course there are already solution
 databases on the internet, but this approach is more general.
