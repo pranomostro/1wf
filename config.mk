@@ -1,5 +1,4 @@
-#configuration makefile for 1wf
-
 PREFIX=/usr/local
 
-TARGET=1wf
+BIN=1wf
+MAN=$(BIN:=.1)
