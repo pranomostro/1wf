@@ -1,23 +1,46 @@
-.TH 1WF 1
-.SH NAME
-1wf \- solve 4p1w riddles
+.Dd May 11, 2017
+.Dt 1WF 1
+.Os
 
-.SH SYNOPSIS
-1wf len chars dict
+.Sh 1WF
+.Nm 1wf
+.Nd solve 4p1w riddles
 
-.SH DESCRIPTION
-1wf prints possible solutions for 4 pics 1 word riddles. It takes 3
-arguments: len is the length of the searched word, chars are the chars
-provided for the generation of the word and dict is the name of the
-dictiory file (a dictionary file named 'dict' is provided with 1wf). 1wf
-prints one possible solution per line.
+.Sh SYNOPSIS
+.Nm
+.Ar len
+.Ar chars
+.Ar dict
 
-.SH BUGS
-The solutions are far from perfect, but the right one should be within
-the first 10 or 20 solutions, depending on dict.
-.PP
-Since miranda has no unicode handling mechanisms, any non-ASCII input
-is broken.
+.Sh DESCRIPTION
+.Nm
+prints possible solutions for 4 pics 1 word riddles.
+It takes following arguments:
+.Bl -tag -width Ds
+.It Ar len
+The length of the searched word.
+.It Ar chars
+The characters provided by 4p1w.
+.It Ar dict
+The dictionary file.
+.El
 
-.SH AUTHOR
-pranomostro (pranomestro@gmail.com)
+.Sh FILES
+.Bl -tag -width Ds
+.It Pa dict
+Dictionary file included in this repository.
+.It Pa /usr/share/dict/
+Probably contains useful dictionary files.
+.El
+
+.Sh EXIT STATUS
+.Ex -std
+
+.Sh BUGS
+There are often multiple solutions, the right one should be within
+the first 10-20 results.
+.Pp
+Only ASCII input can be handled.
+
+.Sh AUTHORS
+.An pranomostro Aq Mt pranomestro@gmail.com
