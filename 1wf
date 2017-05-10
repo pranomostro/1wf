@@ -2,7 +2,7 @@
 main
 
 main = map Stdout (map (++"\n") matches), if #$*=4
-     = [Stderr "1wf LEN CHARS DICT\n"], otherwise
+     = [Stderr "1wf len chars dict\n"], otherwise
 
 haylen = numval($*!1)
 chars = $*!2
